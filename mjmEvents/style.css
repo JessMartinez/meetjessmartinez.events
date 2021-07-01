@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font-family: "Poppins";
+	color: #123C69;
+	line-height: .8;
+	background-color: #85AEC2;
+
+
+	background-image: url("Images/mjmEventsBackground.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+}
+
+p {
+		margin-bottom: 10px;
+	}
+
+nav {
+	text-align: right;
+	text-decoration: none;
+	color: navy;
+	padding: 10px;
+	word-spacing: 15px;
+	font-size: 2vw;
+}
+a:link {
+	text-decoration: none;
+	color: #123C69;
+}
+
+.EventsList a {
+
+	color: #123C69;
+	background-color: #85AEC2;
+	padding: 4px;
+	border-radius: 4px;
+	font-size: 2vw;
+}
+h1 {
+	font-size: 3vw;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 2vw;
+	line-height: 1.25;
+}
+.EventsList {
+	margin: 10% 0px 0px 25%;
+	max-width: 50vw
+}
+
+.EventsList img {
+	border-radius: 100%;
+	height: auto;
+	width: 45%;
+	float: right;
+	border: #85AEC2;
+
+}
+
+.EventsList li {
+	margin-bottom: 10px;
+	line-height: 1.25;
+}
+	
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #85AEC2;
+	text-align: center;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	body {
+		line-height: 1.2;
+		background-image: url("Images/RmjmEventsBackground.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+
+	}
+	
+}
+
